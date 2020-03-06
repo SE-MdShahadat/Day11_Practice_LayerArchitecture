@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\StudentManager.cs" />
     <Compile Include="LAUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +57,7 @@
     <Compile Include="Models\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\StudentRepository.cs" />
     <EmbeddedResource Include="LAUi.resx">
       <DependentUpon>LAUi.cs</DependentUpon>
     </EmbeddedResource>
